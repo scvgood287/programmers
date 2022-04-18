@@ -1,0 +1,9 @@
+--https://programmers.co.kr/learn/courses/30/lessons/59413
+
+SELECT CART_ID
+FROM CART_PRODUCTS
+WHERE NAME = 'Milk'
+INTERSECT
+SELECT CART_ID
+FROM CART_PRODUCTS
+WHERE NAME = 'Yogurt'
